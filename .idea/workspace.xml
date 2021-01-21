@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6fbd7402-b5db-4a75-a452-466b02b1dc37" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ie49XYEQKekZH8sNQIFNO8YbYa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.29655173" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="nl.gettoworktogether.springbootstartertestassertj.util" />
+      <recent name="nl.gettoworktogether.springbootstartertestassertj.model" />
+      <recent name="nl.gettoworktogether.springbootstartertest.repository" />
+      <recent name="nl.gettoworktogether.springbootstartertest.service" />
+      <recent name="nl.gettoworktogether.springbootstartertest.model" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="nl.gettoworktogether.springbootstartertest.service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="nl.gettoworktogether.springbootstartertest.repository" />
+      <recent name="nl.gettoworktogether.springbootstartertest.controller" />
+      <recent name="nl.gettoworktogether.springbootstartertest.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/nl/gettoworktogether/springbootstartertestassertj" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DemoMocks.configureCallUnderlying">
+    <configuration name="All in spring-boot-starter-test-assertj" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-starter-test-assertj" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerControllerIntegrationTest.givenCustomers_whenGetCustomers_thenReturnJsonArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-starter-test-assertj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nl.gettoworktogether.springbootstartertestassertj.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nl.gettoworktogether.springbootstartertestassertj.controller" />
+      <option name="MAIN_CLASS_NAME" value="nl.gettoworktogether.springbootstartertestassertj.controller.CustomerControllerIntegrationTest" />
+      <option name="METHOD_NAME" value="givenCustomers_whenGetCustomers_thenReturnJsonArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceImplIntegrationTest.testGetEmployeeByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-starter-test-assertj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nl.gettoworktogether.springbootstartertestassertj.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nl.gettoworktogether.springbootstartertestassertj.service" />
+      <option name="MAIN_CLASS_NAME" value="nl.gettoworktogether.springbootstartertestassertj.service.CustomerServiceImplIntegrationTest" />
+      <option name="METHOD_NAME" value="testGetEmployeeByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-starter-test-assertj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nl.gettoworktogether.springbootstartertestassertj.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nl.gettoworktogether.springbootstartertestassertj.model" />
+      <option name="MAIN_CLASS_NAME" value="nl.gettoworktogether.springbootstartertestassertj.model.CustomerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMocks.configureCallUnderlying" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-starter-test-assertj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nl.gettoworktogether.springbootstartertestassertj.mocks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nl.gettoworktogether.springbootstartertestassertj.mocks" />
+      <option name="MAIN_CLASS_NAME" value="nl.gettoworktogether.springbootstartertestassertj.mocks.DemoMocks" />
+      <option name="METHOD_NAME" value="configureCallUnderlying" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DemoMocks.configureCallUnderlying" />
+        <item itemvalue="JUnit.All in spring-boot-starter-test-assertj" />
+        <item itemvalue="JUnit.CustomerTest" />
+        <item itemvalue="JUnit.CustomerControllerIntegrationTest.givenCustomers_whenGetCustomers_thenReturnJsonArray" />
+        <item itemvalue="JUnit.CustomerServiceImplIntegrationTest.testGetEmployeeByName" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fbd7402-b5db-4a75-a452-466b02b1dc37" name="Default Changelist" comment="" />
+      <created>1602254573796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602254573796</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="service.getAllCustomers()" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spring_boot_starter_test_assertj$TellerTest.ic" NAME="TellerTest Coverage Results" MODIFIED="1602575108512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>nl.gettoworktogether.springbootstartertestassertj.util.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/spring_boot_starter_test_assertj$TellerTest_telopMetLoop.ic" NAME="TellerTest.telopMetLoop Coverage Results" MODIFIED="1602574652532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>nl.gettoworktogether.springbootstartertestassertj.util.*</FILTER>
+    </SUITE>
+  </component>
+</project>
