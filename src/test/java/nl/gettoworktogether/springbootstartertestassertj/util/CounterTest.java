@@ -1,23 +1,27 @@
 package nl.gettoworktogether.springbootstartertestassertj.util;
 
-import org.junit.jupiter.api.Test;  // JUnit5
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 class CounterTest {
 
     @Test
     void simpelTest() {
         String s = "abcdefg";
-        String upper = s.toUpperCase();
-        assertEquals("ABCDEFG", upper);
+        String actual = s.toUpperCase();
+        String expected = "ABCDEFG";
+        assertThat(actual).isEqualTo(expected);
     }
 
     @Test
     void simpelTest2() {
         String s = "ABCDEFG";
         String actual = s.toLowerCase();
-        assertEquals("abcdefg", actual);
+        String expected = "abcdefg";
+        assertThat(actual).isEqualTo(expected);
     }
 
     @Test
@@ -25,7 +29,7 @@ class CounterTest {
         int[] getallen = new int[] {1,2,3};
         int actual = Counter.addWithLoop(getallen);
         int expected = 6;
-        assertEquals(expected, actual);
+        assertThat(actual).isEqualTo(expected);
     }
 
     @Test
@@ -33,7 +37,7 @@ class CounterTest {
         int[] getallen = new int[] {1,2,3};
         int actual = Counter.addWithStream(getallen);
         int expected = 6;
-        assertEquals(expected, actual);
+        assertThat(actual).isEqualTo(expected);
     }
 
     @Test
@@ -41,22 +45,20 @@ class CounterTest {
         int[] getallen = new int[] {1,2,3};
         int actual = Counter.getSmallestNumber(getallen);
         int expected = 1;
-        assertEquals(expected, actual);
+        assertThat(actual).isEqualTo(expected);
     }
 
-    @Test
+    @Test(expected = ArrayIndexOutOfBoundsException.class)
     void getSmallestNumberWithEmptyArrayTest() {
-        assertThrows(ArrayIndexOutOfBoundsException.class, ()->{
-            int[] numbers = new int[] {};
-            int actual = Counter.getSmallestNumber(numbers);
-        });
+        int[] numbers = new int[] {};
+        int actual = Counter.getSmallestNumber(numbers);
     }
 
     @Test
     void testTellerInstantiate() {
         Counter counter = new Counter();
-        assertNotNull(counter);
-        assertEquals(0, counter.getTotal());
+        assertThat(counter).isNotNull();
+        assertThat(counter.getTotal()).isEqualTo(0);
     }
 
     @Test
@@ -73,7 +75,7 @@ class CounterTest {
 
         // then
         int expected = 144;
-        assertEquals(expected, actual);
+        assertThat(actual).isEqualTo(expected);
     }
 
 }

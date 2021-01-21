@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fbd7402-b5db-4a75-a452-466b02b1dc37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="6fbd7402-b5db-4a75-a452-466b02b1dc37" name="Default Changelist" comment="Added PostgreSQL">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nl/gettoworktogether/springbootstartertestassertj/util/CounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nl/gettoworktogether/springbootstartertestassertj/util/CounterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,10 +165,22 @@
       <option name="presentableId" value="Default" />
       <updated>1602254573796</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added PostgreSQL">
+      <created>1611226502880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611226502881</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added PostgreSQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added PostgreSQL" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
