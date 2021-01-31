@@ -1,26 +1,26 @@
 package nl.gettoworktogether.springbootstartertestassertj.util;
 
-import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 class CounterTest {
 
     @Test
-    void simpelTest() {
-        String s = "abcdefg";
-        String actual = s.toUpperCase();
-        String expected = "ABCDEFG";
-        assertThat(actual).isEqualTo(expected);
-    }
+    void testCounterAdd() {
 
-    @Test
-    void simpelTest2() {
-        String s = "ABCDEFG";
-        String actual = s.toLowerCase();
-        String expected = "abcdefg";
+        // arange
+        Counter counter = new Counter();
+
+        counter.add(45);
+        counter.add(67);
+        counter.add(32);
+
+        // act
+        int actual = counter.getTotal();
+
+        // assert
+        int expected = 144;
         assertThat(actual).isEqualTo(expected);
     }
 
@@ -59,23 +59,6 @@ class CounterTest {
         Counter counter = new Counter();
         assertThat(counter).isNotNull();
         assertThat(counter.getTotal()).isEqualTo(0);
-    }
-
-    @Test
-    void testTellerAdd() {
-        // given
-        Counter counter = new Counter();
-
-        counter.add(45);
-        counter.add(67);
-        counter.add(32);
-
-        // when
-        int actual = counter.getTotal();
-
-        // then
-        int expected = 144;
-        assertThat(actual).isEqualTo(expected);
     }
 
 }

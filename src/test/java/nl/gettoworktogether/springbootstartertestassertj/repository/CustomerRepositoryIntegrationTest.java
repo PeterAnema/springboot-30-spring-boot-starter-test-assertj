@@ -26,6 +26,7 @@ public class CustomerRepositoryIntegrationTest {
 
     @Test
     public void whenFindByName_thenReturnEmployee() {
+
         // given
         Customer customer = new Customer("Albert", "Einstein");
         entityManager.persist(customer);
